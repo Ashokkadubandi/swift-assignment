@@ -37,6 +37,25 @@ This project is a React-based application built to fulfill the assignment requir
 
 ---
 
+## Project Structure
+src/
+│
+├── components/
+│   ├── Header.jsx
+│
+├── pages/
+│   ├── dashboard.jsx
+│   ├── profile.jsx
+|
+├──styles/
+    ├──dashboard.css
+    ├──global.css
+    ├──header.css
+    ├──profile.css
+├── App.js
+├── index.js
+└── styles.css
+
 ## 🛠 Installation & Setup
 
 1. *Clone the repository:*
