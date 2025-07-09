@@ -19,6 +19,7 @@
     .sorting-triggers{
         width: 50%;
         flex-wrap: wrap;
+        width: 100%;
     }
 }
 .sort-trig{
