@@ -1,12 +1,45 @@
-# React + Vite
+# 📘 React Comments Dashboard & Profile Viewer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a React-based application built to fulfill the assignment requirements within a 48-hour timeline. It consists of two primary screens: a *Profile Screen* (using dummy user API data) and a *Comments Dashboard*
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+### 🔹 Profile Screen
+- Loads and displays the first user from the dummy user API.
+- Profile fields are *read-only*.
+- By clicking user profile on navbar redirect to profile*.
+- Integrated *React Router* for navigation between screens.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🔹 Comments Dashboard
+- Fetches and displays *500 comment records* from the dummy API.
+- Implements a *fully custom pagination system* (no third-party pagination libraries).
+- Implements *searching* (partial match) by *name, email, and comments*.
+- Includes *custom sorting logic* on:
+  - Post ID
+  - Name
+  - Email
+- Sorting behavior:
+  - *No sort → Ascending → Descending → No sort* cycle.
+  - Only *one column can be sorted at a time*.
+
+---
+
+## 🧪 Technical Stack
+
+- *React.js* for building UI
+- *React Router* for navigation
+- *Plain JavaScript*
+- *CSS*
+- Fully responsive and *mobile-optimized*
+- Compatible with *Chrome, **Firefox, and **Edge*
+
+---
+
+## 🛠 Installation & Setup
+
+1. *Clone the repository:*
+   ```bash
+   git clone https://github.com/Ashokkadubandi/swift-assignment.git
+   cd swift-assignment
