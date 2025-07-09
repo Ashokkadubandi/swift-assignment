@@ -5,7 +5,7 @@ import Profile from './pages/profile.jsx'
 
 const router = createBrowserRouter([
   {
-    path:'/',
+    path:'/dashboard',
     element:<Navigate to={'/dashboard'}/>
   },
   {
