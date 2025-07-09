@@ -1,0 +1,99 @@
+.profile-card{
+    padding-top: 25px;
+    width: 90%;
+}
+.greet-section{
+    display: flex;
+    align-items: center;
+}
+.greet-name{
+    padding-left: 15px;
+    padding-bottom: 10px;
+    font-size: 2rem;
+    color: rgb(1, 1, 65);
+}
+@media(max-width:636px){
+    .greet-name{
+        font-size: 1rem;
+    }
+}
+.usr-profile-card{
+    padding: 3rem;
+    border: 2px solid rgb(243, 243, 250);
+    border-radius: 8px;
+}
+.usr-profile-head{
+    display: flex;
+    align-items: center;
+}
+.logo-radius{
+    height: 90px;
+    width: 90px;
+    font-size: 35px;
+    color: rgb(0, 0, 54);
+    background-color: rgb(242, 249, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+@media(max-width:636px){
+.logo-radius{
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+}
+}
+.usr-name-email{
+    padding-left:2rem;
+}
+.usr-profile-name{
+    color: rgb(0, 0, 54);
+    font-weight: bold;
+    line-height: 2;
+    font-size: 1.8rem;
+}
+@media(max-width:636px){
+    .usr-profile-name{
+        font-size: 1rem;
+    }
+}
+.usr-profile-email{
+    font-size: 1.2rem;
+    color: rgb(143, 141, 141);
+}
+@media(max-width:636px){
+    .usr-profile-email{
+        font-size: 0.8rem;
+    }
+}
+
+.profile-info{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 30px;
+    width: 100%;
+    margin-top: 20px;
+}
+form .inp-sec{
+   width: 300px;
+}
+form label{
+    font-size: 1rem;
+    color: rgb(3, 8, 80);
+}
+form input{
+    padding: 0.8rem;
+    width: 100%;
+    margin-top: 10px;
+    border: none;
+    background-color: rgb(245, 245, 245);
+    font-size: 1rem;
+}
